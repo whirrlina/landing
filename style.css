@@ -1,0 +1,170 @@
+/*start of body*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+h1 {
+	font-family: 'Ranchers', cursive;
+	color: White;
+	font-size: 100px;
+	font-weight: 200;
+	text-align: center;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size: 20px;
+	font-weight: 200;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 100;
+	color: white;
+}
+a:hover {
+	color: black;
+}
+
+/*---------------------------------------------------------------------------------------------------/
+/*banner content*/
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/banner.webp');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+.banner h1 {
+	color: white
+	font-size: 45px
+	margin: 0;
+}
+.banner p {
+	color: white;
+	size: 24px;
+}
+
+.button-purple {
+	text-align: center;
+	background-color: white;
+	padding: 16px 48px;
+	border-radius: 4px;
+	display: inline-block;
+	text-decoration: none;
+	color: pink;
+}
+
+.button-purple:hover {
+	background color: #0D1EC6
+	color: red;
+}
+.banner h1{
+	margin-bottom: 0;
+}
+.banner img{
+	width: 1000px;
+	height: 500px;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/*info box content*/
+.container {
+	width: auto;
+	margin: auto;
+}
+
+h2 {
+	font-family: 'Ranchers', cursive;
+	color: black;
+	font-size: 70px;
+	font-weight: 150;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Ranchers', cursive;
+	color: black;
+	font-size: 40px;
+	font-weight: 100;
+}
+
+.card-pink {
+	background: white;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 4px
+	width: 200px;
+	text-align: center;
+	padding: 24px;
+	margin: 8px;
+}
+
+.card-pink img {
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 4px
+}
+.card-pink h3{
+	margin-bottom: 0;
+}
+.cards{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+
+
+/*------------------------------------------------------------------------------------------*/
+/*footer*/
+.footer {
+	background:rgba(90, 90, 90);
+	text-align: center;
+	padding: 24px 0;
+}
+
+.footer p {
+	color: pink;
+}
+
+/*cards media*/
+@media (max-width: 800px) {
+	.cards {
+		grid-template-columns: 1fr;
+	}
+
+	.card-pink {
+		width: auto;
+	}
+}
+
+/* container media*/
+@media (min-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+@media (min-width: 800px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.container {
+		width: 800px;
+	}
+}
+
+/*end of body*/
+}
+
+
+
+
+
+
