@@ -141,6 +141,12 @@ h3 {
 }
 
 /* container media*/
+@media (min-width: 100px) and (max-width: 575px){
+	.card-pink {
+		width: auto;
+	}
+}
+
 @media (min-width: 500px) {
 	.container {
 		width: 400px;
